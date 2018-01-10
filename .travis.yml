@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: hyClq+brQa2h5xJ2/+UF/HlrK6HVVthFheDEVPeZGcG9xO1tL5yVL6KY4IHO6ipGsWV19IfIASZ3gGKK55rJqBZdy2cRxj6oWNo2mO+AumR0cyxRrX5Z4NLlc20t9I8A/u8TZtkbIaIjlDjD3a66yEjUhhiYnD+XddQOHrdGEU+0yOP2lmq6tgqdIeF+NuuOSdNQjL1PzpzY0yW0xj91j8s4F9ldB47O+Z2rRwN6dRmQESlZI/wfMIbISEWyWQNwtjqmg5CQqXf9GEMjSyGHpDV4Rxe0v9hQQBB8Wcw6B3DwUsniq7S2Fb7NUX6h+MFyx1mJsjWiUwYHqM0wt4ptW3dpOQ/o4Rln5PM+rjQwuw4s1QHq6P4CMpDg3sl8EuV7Sd08906dpK3KPH10a+cish4FApwCaeTHA8Rn1NGG2PgxjMVevX83eTc0p8F5gSNajlDOToDpSlVIPbNxI+o3h31sdbG3EUuwydCsyjZdV1Mf2J2nkZKSIPxMCLu+OuqaU7Bg5YtG6wXoJZYUxuhdw7iu61GZoU+jUWhEuFJP4w9b+hSutMUnNI/tFNKyWZ0+e1tVoOCm+C/5Nu8G2uJKxBccaRoRII1oMiGLkARDSYF/rCs7614yLZyi0I3c2EphznSePG/mqEC17ctVssHIecDEEbinEhjVUBUNhAaivf4=
+  app: nameless-chamber-67290
+  on:
+    repo: kevinlnichols/quiz-builder-api
